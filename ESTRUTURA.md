@@ -1,72 +1,115 @@
-# 📁 ESTRUTURA DO PROJETO — README Personalizado GitHub
-> **@gcasiv — Gustavo Casanova**  
-> Documentação completa de organização, configuração e manutenção do perfil.
+# Documentacao do Projeto — README Personalizado GitHub
+> **@gcasiv — Gustavo Casanova**
 
 ---
 
-## 📂 Estrutura de Arquivos e Pastas
+## Estrutura de Arquivos
 
 ```
-gcasiv/                          ← repositório especial (mesmo nome do usuário)
+gcasiv/                              ← repositorio especial (mesmo nome do usuario)
 │
-├── README.md                    ← Perfil principal (PT-BR — padrão)
-├── README_EN.md                 ← Versão em inglês do perfil
-├── ESTRUTURA.md                 ← Este arquivo (documentação)
+├── README.md                        ← Perfil principal (PT-BR — padrao)
+├── README_EN.md                     ← Versao em ingles
+├── ESTRUTURA.md                     ← Este arquivo
 │
-├── assets/                      ← Imagens e mídias referenciadas no README
-│   ├── cat.gif                  ← Seu gif do gatinho (feito no Aseprite)
-│   ├── banner.png               ← Banner opcional caso queira um customizado
-│   └── preview.png              ← Screenshot do perfil para portfólio
-│
-└── .github/
-    └── workflows/
-        └── pacman.yml           ← GitHub Action para gerar o gráfico Pac-Man
+└── assets/
+    ├── cat.gif                      ← Seu gif do gatinho (feito no Aseprite)
+    └── icons/                       ← Todos os 50 SVGs do projeto
+        │
+        ├── — BANDEIRAS —
+        ├── BR-Brazil.svg
+        ├── US-United States.svg
+        │
+        ├── — CONTATO —
+        ├── behance.svg
+        ├── e-mail.svg
+        ├── linkedin.svg
+        ├── logo-instagram.svg
+        │
+        ├── — LINGUAGENS —
+        ├── css3.svg
+        ├── html5.svg
+        ├── typescript.svg
+        ├── javascript.svg
+        ├── php.svg
+        ├── python.svg
+        ├── node.js.svg
+        ├── react.svg
+        ├── next.js.svg
+        ├── angular.svg
+        ├── vue.svg
+        ├── tailwindcss.svg
+        ├── mysql.svg
+        ├── postgresql.svg
+        ├── firebase.svg
+        ├── xampp.svg
+        ├── bootstrap.svg
+        ├── sass.svg
+        ├── ionic.svg
+        ├── ruby.svg
+        ├── git.svg
+        ├── linux.svg
+        ├── markdown.svg
+        ├── vite.js.svg
+        ├── github-copilot.svg
+        ├── visual-studio-code.svg
+        ├── android.svg
+        ├── godot.svg
+        ├── blender.svg
+        ├── figma.svg
+        ├── penpot.svg
+        ├── affinity.svg
+        ├── behance-black.svg
+        ├── ibis-paint-x.svg
+        ├── clip-studio-paint.svg
+        ├── krita.svg
+        ├── aseprite.svg
+        ├── notion.svg
+        ├── trello.svg
+        │
+        └── — LOGOTIPOS ESPECIAIS —
+            ├── vscode-logotype.svg
+            ├── notepad++-logotype.svg
+            ├── github-logotype.svg
+            └── vercel-logotype.svg
 ```
 
 ---
 
-## 🐱 Como Adicionar o Gif do Gato
+## Como adicionar o gif do gato
 
-1. Crie seu gif no **Aseprite** (pixel art recomendado — fica incrível no GitHub)
+1. Crie seu gif no **Aseprite** (pixel art — fica incrivel no GitHub)
 2. Salve como `cat.gif` dentro da pasta `assets/`
-3. No `README.md`, substitua a linha abaixo:
+3. No `README.md` e `README_EN.md`, encontre o comentario:
 
 ```md
-<!-- PLACEHOLDER DO GIF DO GATO (adicione seu .gif do Aseprite aqui) -->
-<img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" .../>
+<!-- <img src="./assets/cat.gif" width="200" alt="cat gif"/> -->
 ```
 
-Por:
-
-```md
-<img src="./assets/cat.gif" width="200" alt="cat gif" style="border-radius: 12px;"/>
-```
-
-> 💡 **Dica de tamanho:** 200×200px ou 150×200px funciona muito bem para a coluna lateral. Mantenha o gif com fundo transparente para combinar com qualquer tema do GitHub.
+4. Remova o comentario e apague a linha do gif temporario do Giphy acima dele
 
 ---
 
-## 🕹️ Como Configurar o Pac-Man (Gráfico de Contribuições)
+## Como configurar o Pac-Man
 
-O gráfico Pac-Man é gerado automaticamente via **GitHub Actions**. Siga os passos:
+O grafico Pac-Man e gerado via **GitHub Actions**. Siga os passos:
 
 ### 1. Criar o arquivo da Action
 
-Crie o arquivo `.github/workflows/pacman.yml` com o seguinte conteúdo:
+Crie `.github/workflows/pacman.yml` com o conteudo abaixo:
 
 ```yaml
 name: Generate Pac-Man Graph
 
 on:
   schedule:
-    - cron: "0 */12 * * *"   # Roda a cada 12 horas
-  workflow_dispatch:           # Permite rodar manualmente
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-
     steps:
       - name: Generate pacman graph
         uses: Platane/snk/svg-only@v3
@@ -85,101 +128,71 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
 
-### 2. Habilitar permissões
+### 2. Habilitar permissoes
 
-- Vá em **Settings → Actions → General**
+- Va em **Settings → Actions → General**
 - Em **Workflow permissions**, marque: `Read and write permissions`
 - Salve
 
-### 3. Rodar manualmente pela primeira vez
+### 3. Rodar pela primeira vez
 
-- Vá em **Actions → Generate Pac-Man Graph → Run workflow**
-
-Depois de rodar, o SVG estará disponível e o gráfico aparecerá automaticamente no seu README!
+- Va em **Actions → Generate Pac-Man Graph → Run workflow**
 
 ---
 
-## 🌐 Alternância de Idioma (PT-BR ↔ EN)
+## Sistema de idiomas
 
-O sistema de tradução funciona com **dois arquivos separados** e badges clicáveis:
+| Arquivo        | Idioma  | Comportamento                          |
+|----------------|---------|----------------------------------------|
+| `README.md`    | PT-BR   | Exibido por padrao ao entrar no perfil |
+| `README_EN.md` | English | Acessado clicando na bandeira dos EUA  |
 
-| Arquivo        | Idioma padrão | Link da badge                   |
-|----------------|---------------|---------------------------------|
-| `README.md`    | 🇧🇷 Português  | Badge EN leva para README_EN.md |
-| `README_EN.md` | 🇺🇸 English   | Badge PT leva para README.md    |
-
-> Ao entrar no seu perfil (`github.com/gcasiv`), o GitHub exibe o `README.md` automaticamente — ou seja, **PT-BR é o padrão**, exatamente como você quis.
-
----
-
-## 🔗 Links que Precisam Ser Atualizados
-
-Abra o `README.md` e o `README_EN.md` e substitua os placeholders abaixo pelos seus links reais:
-
-| Placeholder                         | Substitua por                            |
-|-------------------------------------|------------------------------------------|
-| `https://www.linkedin.com/in/gcasiv`| Seu link real do LinkedIn                |
-| `seuemail@gmail.com`                | Seu e-mail real                          |
-| `https://www.behance.net/gcasiv`    | Seu link real do Behance                 |
-| `@colliriall`                       | ✅ Já está correto (Instagram de desenho) |
+A bandeira do Brasil no topo do `README_EN.md` volta para o PT-BR.
+A bandeira dos EUA no topo do `README.md` vai para o ingles.
 
 ---
 
-## 📊 Gráficos Utilizados (APIs Externas)
+## Links para atualizar
 
-Todos os gráficos usam APIs gratuitas e confiáveis — sem necessidade de token para a maioria:
+Abra os dois READMEs e substitua:
 
-| Gráfico                  | Serviço                                | Documentação                                        |
-|--------------------------|----------------------------------------|-----------------------------------------------------|
-| Stats Card               | github-readme-stats                   | github.com/anuraghazra/github-readme-stats          |
-| Streak Stats             | streak-stats.demolab.com              | github.com/DenverCoder1/github-readme-streak-stats  |
-| Activity Graph           | github-readme-activity-graph          | github.com/Ashutosh00710/github-readme-activity-graph |
-| Trophy                   | github-profile-trophy                 | github.com/ryo-ma/github-profile-trophy             |
-| Pac-Man Graph            | Platane/snk                           | github.com/Platane/snk                              |
-| Typing SVG               | readme-typing-svg.demolab.com         | github.com/DenverCoder1/readme-typing-svg           |
-| Banner (capsule-render)  | capsule-render.vercel.app             | github.com/kyechan99/capsule-render                 |
-| Ícones (skillicons)      | skillicons.dev                        | github.com/tandpfun/skill-icons                     |
+| Placeholder                         | Substitua por               |
+|-------------------------------------|-----------------------------|
+| `seuemail@gmail.com`                | Seu e-mail real             |
+| `https://www.linkedin.com/in/gcasiv`| Seu link real do LinkedIn   |
+| `https://www.behance.net/gcasiv`    | Seu link real do Behance    |
 
 ---
 
-## 🎨 Paleta de Cores Utilizada
+## Paleta de cores
 
-```css
---verde-escuro-1:  #004d1a;   /* fundo de seções / footer */
---verde-escuro-2:  #006622;   /* gradientes intermediários */
---verde-principal: #00a651;   /* cor primária — badges, títulos */
---verde-claro:     #39d353;   /* destaque — ícones, linhas */
---verde-link:      #1a6b3c;   /* hover / links secundários */
---bg-dark:         #0d1117;   /* fundo dos cards (GitHub dark) */
---text-light:      #c9d1d9;   /* texto dos cards */
+```
+#004d1a  — verde escuro 1   (banner, footer)
+#006622  — verde escuro 2   (gradientes)
+#00a651  — verde principal  (badges, titulos, bordas)
+#39d353  — verde claro      (icones, linhas do grafico)
+#1a6b3c  — verde link       (badges secundarias)
+#0d1117  — fundo dark       (cards de stats)
+#c9d1d9  — texto claro      (texto dos cards)
+#f0a500  — amarelo          (badge "Em Aperfeicoamento")
 ```
 
 ---
 
-## ✅ Checklist de Publicação
+## Checklist de publicacao
 
-Antes de publicar, confirme:
-
-- [ ] Repositório criado com o nome exato `gcasiv` (igual ao seu usuário)
-- [ ] `README.md` e `README_EN.md` na raiz do repositório
-- [ ] Pasta `assets/` criada
-- [ ] Gif do gato adicionado em `assets/cat.gif` e caminho atualizado no README
-- [ ] Links reais do LinkedIn, e-mail e Behance substituídos
-- [ ] GitHub Action do Pac-Man criada e rodada pelo menos uma vez
-- [ ] Permissões de Actions habilitadas (read + write)
-- [ ] Repositório configurado como **público**
-
----
-
-## 💡 Dicas Extras
-
-- **Atualize frequentemente:** Quanto mais commits você fizer, mais bonito fica o gráfico Pac-Man e o Activity Graph
-- **Fixe repositórios:** Fixe seus melhores projetos no perfil para aparecerem em destaque
-- **README dos repositórios:** Adicione um README caprichado em cada projeto — faz toda a diferença para quem visita
-- **Contribuições privadas:** Nas configurações do card de stats, já está ativado `count_private=true`
+- [ ] Repositorio `gcasiv` criado como publico
+- [ ] `README.md` na raiz
+- [ ] `README_EN.md` na raiz
+- [ ] `ESTRUTURA.md` na raiz
+- [ ] Pasta `assets/icons/` com os 50 SVGs
+- [ ] Links reais de LinkedIn, e-mail e Behance atualizados
+- [ ] GitHub Action do Pac-Man criada e rodada ao menos uma vez
+- [ ] Permissoes de Actions habilitadas (read + write)
+- [ ] Gif do gato adicionado em `assets/cat.gif` (quando pronto)
 
 ---
 
 <div align="center">
-  <sub>Documentação criada para <strong>@gcasiv — Gustavo Casanova</strong> 💚</sub>
+  <sub>Documentacao para <strong>@gcasiv — Gustavo Casanova</strong></sub>
 </div>

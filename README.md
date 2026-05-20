@@ -2,11 +2,11 @@
 
 <!-- ══════════════════ BANDEIRAS / IDIOMA ══════════════════ -->
 <div align="center">
-  <a href="./README.md">
+  <a href="../README.md">
     <img src="./assets/icons/BR-Brazil.svg" width="48" height="48" alt="Português"/>
   </a>
   &nbsp;&nbsp;
-  <a href="./README_EN.md">
+  <a href="../README_EN.md">
     <img src="./assets/icons/US-United States.svg" width="48" height="48" alt="English"/>
   </a>
 </div>

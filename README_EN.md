@@ -97,64 +97,221 @@ goal:    "Full Stack Developer"
 </div>
 
 
-
 <!-- ══════════════════ TECH STACK ══════════════════ -->
 ## Tech Stack
 
 <div align="center">
 
-<!-- ROW 1 -->
-<img src="./assets/icons/javascript.svg" width="44" height="44" alt="JavaScript"/>&nbsp;
-<img src="./assets/icons/typescript.svg" width="44" height="44" alt="TypeScript"/>&nbsp;
-<img src="./assets/icons/html5.svg" width="44" height="44" alt="HTML5"/>&nbsp;
-<img src="./assets/icons/css3.svg" width="44" height="44" alt="CSS3"/>&nbsp;
-<img src="./assets/icons/php.svg" width="44" height="44" alt="PHP"/>&nbsp;
-<img src="./assets/icons/python.svg" width="44" height="44" alt="Python"/>&nbsp;
-<img src="./assets/icons/node.js.svg" width="44" height="44" alt="Node.js"/>&nbsp;
-<img src="./assets/icons/react.svg" width="44" height="44" alt="React"/>&nbsp;
-<img src="./assets/icons/next.js.svg" width="44" height="44" alt="Next.js"/>&nbsp;
-<img src="./assets/icons/angular.svg" width="44" height="44" alt="Angular"/>
-
-
-
-<!-- ROW 2 -->
-<img src="./assets/icons/vue.svg" width="44" height="44" alt="Vue"/>&nbsp;
-<img src="./assets/icons/sass.svg" width="44" height="44" alt="Sass"/>&nbsp;
-<img src="./assets/icons/tailwindcss.svg" width="44" height="44" alt="Tailwind"/>&nbsp;
-<img src="./assets/icons/mysql.svg" width="44" height="44" alt="MySQL"/>&nbsp;
-<img src="./assets/icons/postgresql.svg" width="44" height="44" alt="PostgreSQL"/>&nbsp;
-<img src="./assets/icons/firebase.svg" width="44" height="44" alt="Firebase"/>&nbsp;
-<img src="./assets/icons/xampp.svg" width="44" height="44" alt="XAMPP"/>&nbsp;
-<img src="./assets/icons/bootstrap.svg" width="44" height="44" alt="Bootstrap"/>&nbsp;
-<img src="./assets/icons/ionic.svg" width="44" height="44" alt="Ionic"/>&nbsp;
-<img src="./assets/icons/ruby.svg" width="44" height="44" alt="Ruby"/>
-
-
-
-<!-- ROW 3 -->
-<img src="./assets/icons/git.svg" width="44" height="44" alt="Git"/>&nbsp;
-<img src="./assets/icons/linux.svg" width="44" height="44" alt="Linux"/>&nbsp;
-<img src="./assets/icons/markdown.svg" width="44" height="44" alt="Markdown"/>&nbsp;
-<img src="./assets/icons/vite.js.svg" width="44" height="44" alt="Vite"/>&nbsp;
-<img src="./assets/icons/github-copilot.svg" width="44" height="44" alt="GitHub Copilot"/>&nbsp;
-<img src="./assets/icons/visual-studio-code.svg" width="44" height="44" alt="VSCode"/>&nbsp;
-<img src="./assets/icons/android.svg" width="44" height="44" alt="Android"/>&nbsp;
-<img src="./assets/icons/godot.svg" width="44" height="44" alt="Godot"/>&nbsp;
-<img src="./assets/icons/blender.svg" width="44" height="44" alt="Blender"/>&nbsp;
-<img src="./assets/icons/figma.svg" width="44" height="44" alt="Figma"/>
-
-
-
-<!-- ROW 4 -->
-<img src="./assets/icons/penpot.svg" width="44" height="44" alt="Penpot"/>&nbsp;
-<img src="./assets/icons/affinity.svg" width="44" height="44" alt="Affinity"/>&nbsp;
-<img src="./assets/icons/behance-black.svg" width="44" height="44" alt="Behance"/>&nbsp;
-<img src="./assets/icons/ibis-paint-x.svg" width="44" height="44" alt="Ibis Paint X"/>&nbsp;
-<img src="./assets/icons/clip-studio-paint.svg" width="44" height="44" alt="Clip Studio"/>&nbsp;
-<img src="./assets/icons/krita.svg" width="44" height="44" alt="Krita"/>&nbsp;
-<img src="./assets/icons/aseprite.svg" width="44" height="44" alt="Aseprite"/>&nbsp;
-<img src="./assets/icons/notion.svg" width="44" height="44" alt="Notion"/>&nbsp;
-<img src="./assets/icons/trello.svg" width="44" height="44" alt="Trello"/>
+<table>
+  <tr>
+    <td align="center" width="110" height="110">
+      <img src="./assets/icons/javascript.svg" width="44" height="44" alt="JavaScript"/>
+      <br/>
+      <sub><b>JavaScript</b></sub>
+    </td>
+    <td align="center" width="110" height="110">
+      <img src="./assets/icons/typescript.svg" width="44" height="44" alt="TypeScript"/>
+      <br/>
+      <sub><b>TypeScript</b></sub>
+    </td>
+    <td align="center" width="110" height="110">
+      <img src="./assets/icons/html5.svg" width="44" height="44" alt="HTML5"/>
+      <br/>
+      <sub><b>HTML5</b></sub>
+    </td>
+    <td align="center" width="110" height="110">
+      <img src="./assets/icons/css3.svg" width="44" height="44" alt="CSS3"/>
+      <br/>
+      <sub><b>CSS3</b></sub>
+    </td>
+    <td align="center" width="110" height="110">
+      <img src="./assets/icons/php.svg" width="44" height="44" alt="PHP"/>
+      <br/>
+      <sub><b>PHP</b></sub>
+    </td>
+    <td align="center" width="110" height="110">
+      <img src="./assets/icons/python.svg" width="44" height="44" alt="Python"/>
+      <br/>
+      <sub><b>Python</b></sub>
+    </td>
+    <td align="center" width="110" height="110">
+      <img src="./assets/icons/node.js.svg" width="44" height="44" alt="Node.js"/>
+      <br/>
+      <sub><b>Node.js</b></sub>
+    </td>
+    <td align="center" width="110" height="110">
+      <img src="./assets/icons/react.svg" width="44" height="44" alt="React"/>
+      <br/>
+      <sub><b>React</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="110" height="110">
+      <img src="./assets/icons/next.js.svg" width="44" height="44" alt="Next.js"/>
+      <br/>
+      <sub><b>Next.js</b></sub>
+    </td>
+    <td align="center" width="110" height="110">
+      <img src="./assets/icons/angular.svg" width="44" height="44" alt="Angular"/>
+      <br/>
+      <sub><b>Angular</b></sub>
+    </td>
+    <td align="center" width="110" height="110">
+      <img src="./assets/icons/vue.svg" width="44" height="44" alt="Vue"/>
+      <br/>
+      <sub><b>Vue</b></sub>
+    </td>
+    <td align="center" width="110" height="110">
+      <img src="./assets/icons/sass.svg" width="44" height="44" alt="Sass"/>
+      <br/>
+      <sub><b>Sass</b></sub>
+    </td>
+    <td align="center" width="110" height="110">
+      <img src="./assets/icons/tailwindcss.svg" width="44" height="44" alt="Tailwind"/>
+      <br/>
+      <sub><b>Tailwind</b></sub>
+    </td>
+    <td align="center" width="110" height="110">
+      <img src="./assets/icons/mysql.svg" width="44" height="44" alt="MySQL"/>
+      <br/>
+      <sub><b>MySQL</b></sub>
+    </td>
+    <td align="center" width="110" height="110">
+      <img src="./assets/icons/postgresql.svg" width="44" height="44" alt="PostgreSQL"/>
+      <br/>
+      <sub><b>PostgreSQL</b></sub>
+    </td>
+    <td align="center" width="110" height="110">
+      <img src="./assets/icons/firebase.svg" width="44" height="44" alt="Firebase"/>
+      <br/>
+      <sub><b>Firebase</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="110" height="110">
+      <img src="./assets/icons/xampp.svg" width="44" height="44" alt="XAMPP"/>
+      <br/>
+      <sub><b>XAMPP</b></sub>
+    </td>
+    <td align="center" width="110" height="110">
+      <img src="./assets/icons/bootstrap.svg" width="44" height="44" alt="Bootstrap"/>
+      <br/>
+      <sub><b>Bootstrap</b></sub>
+    </td>
+    <td align="center" width="110" height="110">
+      <img src="./assets/icons/ionic.svg" width="44" height="44" alt="Ionic"/>
+      <br/>
+      <sub><b>Ionic</b></sub>
+    </td>
+    <td align="center" width="110" height="110">
+      <img src="./assets/icons/ruby.svg" width="44" height="44" alt="Ruby"/>
+      <br/>
+      <sub><b>Ruby</b></sub>
+    </td>
+    <td align="center" width="110" height="110">
+      <img src="./assets/icons/git.svg" width="44" height="44" alt="Git"/>
+      <br/>
+      <sub><b>Git</b></sub>
+    </td>
+    <td align="center" width="110" height="110">
+      <img src="./assets/icons/linux.svg" width="44" height="44" alt="Linux"/>
+      <br/>
+      <sub><b>Linux</b></sub>
+    </td>
+    <td align="center" width="110" height="110">
+      <img src="./assets/icons/markdown.svg" width="44" height="44" alt="Markdown"/>
+      <br/>
+      <sub><b>Markdown</b></sub>
+    </td>
+    <td align="center" width="110" height="110">
+      <img src="./assets/icons/vite.js.svg" width="44" height="44" alt="Vite"/>
+      <br/>
+      <sub><b>Vite</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="110" height="110">
+      <img src="./assets/icons/github-copilot.svg" width="44" height="44" alt="GitHub Copilot"/>
+      <br/>
+      <sub><b>Copilot</b></sub>
+    </td>
+    <td align="center" width="110" height="110">
+      <img src="./assets/icons/visual-studio-code.svg" width="44" height="44" alt="VSCode"/>
+      <br/>
+      <sub><b>VSCode</b></sub>
+    </td>
+    <td align="center" width="110" height="110">
+      <img src="./assets/icons/android.svg" width="44" height="44" alt="Android"/>
+      <br/>
+      <sub><b>Android</b></sub>
+    </td>
+    <td align="center" width="110" height="110">
+      <img src="./assets/icons/godot.svg" width="44" height="44" alt="Godot"/>
+      <br/>
+      <sub><b>Godot</b></sub>
+    </td>
+    <td align="center" width="110" height="110">
+      <img src="./assets/icons/blender.svg" width="44" height="44" alt="Blender"/>
+      <br/>
+      <sub><b>Blender</b></sub>
+    </td>
+    <td align="center" width="110" height="110">
+      <img src="./assets/icons/figma.svg" width="44" height="44" alt="Figma"/>
+      <br/>
+      <sub><b>Figma</b></sub>
+    </td>
+    <td align="center" width="110" height="110">
+      <img src="./assets/icons/penpot.svg" width="44" height="44" alt="Penpot"/>
+      <br/>
+      <sub><b>Penpot</b></sub>
+    </td>
+    <td align="center" width="110" height="110">
+      <img src="./assets/icons/affinity.svg" width="44" height="44" alt="Affinity"/>
+      <br/>
+      <sub><b>Affinity</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="110" height="110">
+      <img src="./assets/icons/behance-black.svg" width="44" height="44" alt="Behance"/>
+      <br/>
+      <sub><b>Behance</b></sub>
+    </td>
+    <td align="center" width="110" height="110">
+      <img src="./assets/icons/ibis-paint-x.svg" width="44" height="44" alt="Ibis Paint X"/>
+      <br/>
+      <sub><b>Ibis Paint X</b></sub>
+    </td>
+    <td align="center" width="110" height="110">
+      <img src="./assets/icons/clip-studio-paint.svg" width="44" height="44" alt="Clip Studio"/>
+      <br/>
+      <sub><b>Clip Studio</b></sub>
+    </td>
+    <td align="center" width="110" height="110">
+      <img src="./assets/icons/krita.svg" width="44" height="44" alt="Krita"/>
+      <br/>
+      <sub><b>Krita</b></sub>
+    </td>
+    <td align="center" width="110" height="110">
+      <img src="./assets/icons/aseprite.svg" width="44" height="44" alt="Aseprite"/>
+      <br/>
+      <sub><b>Aseprite</b></sub>
+    </td>
+    <td align="center" width="110" height="110">
+      <img src="./assets/icons/notion.svg" width="44" height="44" alt="Notion"/>
+      <br/>
+      <sub><b>Notion</b></sub>
+    </td>
+    <td align="center" width="110" height="110">
+      <img src="./assets/icons/trello.svg" width="44" height="44" alt="Trello"/>
+      <br/>
+      <sub><b>Trello</b></sub>
+    </td>
+    <td align="center" width="110" height="110">
+      <!-- Empty space for symmetry -->
+    </td>
+  </tr>
+</table>
 
 <br/>
 
@@ -166,7 +323,6 @@ goal:    "Full Stack Developer"
 
 </div>
 
-<br/>
 
 <div align="center">
   <img src="https://img.shields.io/badge/Proficient-00a651?style=flat-square"/>

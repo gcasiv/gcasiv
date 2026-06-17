@@ -3,7 +3,7 @@
 <!-- ══════════════════ FLAGS / LANGUAGE ══════════════════ -->
 <div align="center">
   <a href="./README.md">
-    <img src="./assets/icons/BR-Brazil.svg" width="48" height="48" alt="Português"/>
+    <img src="./assets/icons/BR-Brazil.svg" width="40" height="40" alt="Português"/>
   </a>
   &nbsp;&nbsp;
   <a href="./README_EN.md">

@@ -1,29 +1,20 @@
 <!--  README_EN — Gustavo Casanova — @gcasiv — English Version -->
 
-<!-- ══════════════════ FLAGS / LANGUAGE ══════════════════ -->
-<div align="center">
-  <a href="./README.md">
-    <img src="./assets/icons/BR-Brazil.svg" width="40" height="40" alt="Português"/>
-  </a>
-  &nbsp;&nbsp;
-  <a href="./README_EN.md">
-    <img src="./assets/icons/US-United-States.svg" width="48" height="48" alt="English"/>
-  </a>
-</div>
-
-<br/>
-
 <!-- ══════════════════ BANNER ══════════════════ -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0,004d1a,006622,00a651,39d353&height=220&section=header&text=Gustavo%20Casanova&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Full%20Stack%20Developer%20in%20the%20Making%20%7C%20Designer%20%7C%20Illustrator&descAlignY=60&descSize=16&animation=fadeIn" width="100%"/>
+
+  <img src="./assets/icons/name_titulo.svg" alt="Gustavo Casanova" width="500"/>
+
+  <p>
+  <strong>Full Stack Developer in Training&nbsp; | &nbsp;Designer&nbsp; | &nbsp;Illustrator</strong>
+  </p>
+
 </div>
 
 <!-- ══════════════════ TYPING ══════════════════ -->
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&pause=1200&color=00a651&center=true&vCenter=true&width=600&lines=ADS+Student+%7C+3rd+Semester;Aspiring+Full+Stack+Developer;Passionate+about+Design+and+Art;Growing+every+single+day" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&pause=1200&color=00a651&center=true&vCenter=true&width=600&lines=ADS+Student+%7C+4th+Semester;Future+Full+Stack+Developer;Passionate+About+Design+and+Art;Improving+Myself+Every+Day" alt="Typing SVG"/>
 </div>
-
-<br/>
 
 ---
 
@@ -31,37 +22,38 @@
 <div align="center">
 <table border="0" cellpadding="16" cellspacing="0">
 <tr>
+
 <td valign="top" width="58%">
 
-### 🌿 Hey, I'm Gustavo!
+### ✦ Hello, I'm Gustavo!
 
-```yaml
-name:    "Gustavo Da Silva Casanova"
-user:    "@gcasiv"
-from:    "Rio de Janeiro, Brazil"
-degree:  "Systems Analysis and Development"
-sem:     "3rd semester (ongoing)"
-goal:    "Full Stack Developer"
-```
+<table border="0" cellpadding="12" cellspacing="0">
+<tr>
+<td bgcolor="#111111" style="border-radius: 12px;">
 
-**About me:**
+<div align="left">
 
-- Studying **ADS** and learning every day
-- Passionate illustrator — I create **comics** and artwork
-- Fan of **retro games** and classic videogames
-- **Manga** reader — obsessed with **Hunter x Hunter**
-- Always growing in **design**, **art** and **programming**
-- Open to collaborations, partnerships and creative ideas
-- Philosophy: *"Growing every single day."*
+<span style="color:#00A651;">✦</span> **Name:** Gustavo Da Silva Casanova  
+<span style="color:#00A651;">✦</span> **Username:** @gcasiv  
+<span style="color:#00A651;">✦</span> **Location:** Rio de Janeiro, Brazil  
+<span style="color:#00A651;">✦</span> **Course:** Systems Analysis and Development  
+<span style="color:#00A651;">✦</span> **Semester:** 4th semester — in progress  
+<span style="color:#00A651;">✦</span> **Goal:** Full Stack Developer  
+
+</div>
 
 </td>
+</tr>
+</table>
+
+</td>
+
 <td valign="top" width="42%" align="center">
 
-<!-- CAT GIF — replace with your Aseprite gif when ready: -->
-<!-- <img src="./assets/cat.gif" width="200" alt="cat gif"/> -->
-<img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="200" alt="cat gif"/>
+<!-- GIF/ANIMATION -->
+<img src="./assets/icons/gon.gif" width="200" alt="Animation" style="border-radius: 10px;"/>
 
-<br/><br/>
+<br/>
 
 <!-- VISITOR COUNTER -->
 <img src="https://komarev.com/ghpvc/?username=gcasiv&color=00a651&style=flat-square&label=Visitors" alt="Visitors"/>
@@ -73,20 +65,56 @@ goal:    "Full Stack Developer"
 </a>
 
 </td>
+
 </tr>
 </table>
 </div>
 
 ---
 
+<!-- ══════════════════ TYPING 2 ══════════════════ -->
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=00A651&center=true&vCenter=true&width=700&lines=%3E+Initializing+profile...;%3E+Welcome+to+my+GitHub;%3E+Building.+Learning.+Creating." />
+
+</div>
+
+---
+
+<!-- Text -->
+<td valign="middle" width="58%">
+
+### ✦ About Me
+
+<p align="justify">
+I am a <strong>Systems Analysis and Development (ADS)</strong> student who is always looking to learn, experiment, and grow in the technology field. I enjoy turning ideas into projects and exploring new possibilities through programming.
+</p>
+
+<p align="justify">
+Beyond technology, <strong>art and illustration</strong> are an important part of who I am. I create <strong>comics, illustrations, and visual projects</strong>, seeking to combine creativity and technology in everything I develop.
+</p>
+
+<p align="justify">
+I am also passionate about <strong>retro games, video games, and manga</strong>, especially <strong>Hunter x Hunter</strong>. Currently, I am improving my skills in <strong>programming, design, and art</strong>, always looking for new challenges and opportunities to learn.
+</p>
+
+<p align="justify">
+<strong>✦ Interests:</strong> Technology • Programming • Design • Illustration • Comics • Games • Manga
+</p>
+
+</td>
+
 <!-- ══════════════════ CONTACT ══════════════════ -->
+## Contacts
+
+<br/>
 <div align="center">
 
   <a href="https://www.behance.net/gcasiv" target="_blank">
     <img src="./assets/icons/behance.svg" width="52" height="52" alt="Behance"/>
   </a>
   &nbsp;&nbsp;
-  <a href="mailto:seuemail@gmail.com" target="_blank">
+  <a href="mailto:gustavoocasanova@gmail.com" target="_blank">
     <img src="./assets/icons/e-mail.svg" width="52" height="52" alt="Email"/>
   </a>
   &nbsp;&nbsp;
@@ -95,7 +123,6 @@ goal:    "Full Stack Developer"
   </a>
 
 </div>
-
 
 <!-- ══════════════════ TECH STACK ══════════════════ -->
 ## Tech Stack
@@ -307,8 +334,10 @@ goal:    "Full Stack Developer"
       <br/>
       <sub><b>Trello</b></sub>
     </td>
-    <td align="center" width="110" height="110">
-      <!-- Empty space for symmetry -->
+   <td align="center" width="110" height="110">
+      <img src="./assets/icons/Lua-Logo.svg" width="44" height="44" alt="Lua"/>
+      <br/>
+      <sub><b>Lua</b></sub>
     </td>
   </tr>
 </table>
@@ -323,41 +352,27 @@ goal:    "Full Stack Developer"
 
 </div>
 
-
-<div align="center">
-  <img src="https://img.shields.io/badge/Proficient-00a651?style=flat-square"/>
+<!-- BADGES -->
+<div align="center"> 
+  <img src="https://img.shields.io/badge/Proficient-00A651?style=flat-square"/>
   &nbsp;
-  <img src="https://img.shields.io/badge/Improving-f0a500?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Improving-00A651?style=flat-square"/>
   &nbsp;
-  <img src="https://img.shields.io/badge/Studying-1a6b3c?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Studying-00A651?style=flat-square"/>
 </div>
 
 ---
 
+<!-- ══════════════════ GITHUB STATS ══════════════════ -->
 ## GitHub Stats
 
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=gcasiv&show_icons=true&theme=merko&border_color=00a651&title_color=00a651&icon_color=39d353&text_color=c9d1d9&bg_color=0d1117&include_all_commits=true&count_private=true&rank_icon=github&locale=en" height="165"/>
-&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gcasiv&layout=compact&theme=merko&border_color=00a651&title_color=00a651&text_color=c9d1d9&bg_color=0d1117&langs_count=8&locale=en" height="165"/>
-
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=gcasiv&theme=merko&border=00a651&ring=00a651&fire=39d353&currStreakLabel=00a651&sideLabels=00a651&dates=c9d1d9&background=0d1117&locale=en" height="165"/>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=gcasiv&theme=matrix&column=4&margin-w=8&margin-h=8&no-bg=false&no-frame=false&row=2"/>
+  <img src="https://streak-stats.demolab.com?user=gcasiv&theme=merko&border=00a651&ring=00a651&fire=39d353&currStreakLabel=00a651&sideLabels=00a651&dates=c9d1d9&background=0d1117" height="165"/>
 </div>
 
 ---
 
+<!-- ══════════════════ ACTIVITY ══════════════════ -->
 ## Activity
 
 <div align="center">
@@ -366,49 +381,61 @@ goal:    "Full Stack Developer"
 
 ---
 
-<!-- ══════════════════ ART — SECOND TO LAST ══════════════════ -->
+<!-- ══════════════════ ART & ILLUSTRATION ══════════════════ -->
 ## Art & Illustration
 
 <div align="center">
 
-Beyond code, I live for art. Illustrations, comics and pixel art are my second language.
+Besides coding, I live for art. Illustrations, comics, and pixel art are my second language.
+
+<br/>
+
+ <img src="./assets/icons/logo-instagram.svg" width="160" alt="Drawing Instagram @colliriall"/>
 
 <br/>
 
 <a href="https://www.instagram.com/colliriall" target="_blank">
-  <img src="./assets/icons/logo-instagram.svg" width="180" alt="Art Instagram @colliriall"/>
+<img src="./assets/icons/name_instagram.svg" width="250" alt="colliriall"/>
 </a>
+
 <br/>
 
 </div>
 
 ---
 
-<!-- ══════════════════ PAC-MAN — LAST ══════════════════ -->
-## Contributions
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/gcasiv/gcasiv/output/pacman-contribution-graph-dark.svg"/>
-  <source media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/gcasiv/gcasiv/output/pacman-contribution-graph.svg"/>
-  <img alt="pacman contribution graph"
-    src="https://raw.githubusercontent.com/gcasiv/gcasiv/output/pacman-contribution-graph.svg"
-    width="90%"/>
-</picture>
-
-<br/>
-<sub>To activate Pac-Man, follow the steps in <a href="./ESTRUTURA.md">ESTRUTURA.md</a></sub>
-
-</div>
-
 <!-- ══════════════════ FOOTER ══════════════════ -->
-<br/>
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0,39d353,00a651,006622,004d1a&height=120&section=footer" width="100%"/>
+  
   <sub>Made with dedication by <strong>Gustavo Casanova</strong> · <a href="https://github.com/gcasiv">@gcasiv</a></sub>
   <br/>
-  <sub><em>"Growing every single day."</em></sub>
+  <sub><em>"Improving myself every day."</em></sub>
 </div>
+
+---
+
+<!-- ══════════════════ FLAGS / LANGUAGE ══════════════════ -->
+<div align="center">
+  <a href="./README.md">
+    <img src="./assets/icons/BR-Brazil.svg" width="40" height="40" alt="Português"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="./README_EN.md">
+    <img src="./assets/icons/US-United-States.svg" width="48" height="48" alt="English"/>
+  </a>
+</div>
+
+---
+
+<!-- ══════════════════ DECORATIVE ART ══════════════════ -->
+<br/>
+
+<div align="center">
+  <img 
+    src="./assets/icons/readme_art_EN.svg" 
+    alt="Decorative art" 
+    width="400"
+  />
+</div>
+
+<br/>

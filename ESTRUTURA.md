@@ -1,36 +1,39 @@
-# Documentacao do Projeto — README Personalizado GitHub
+# Documentação do Projeto — README Personalizado GitHub
+
 > **@gcasiv — Gustavo Casanova**
+
+Este arquivo documenta a organização, os recursos visuais e o funcionamento do README do perfil do GitHub `@gcasiv`. Sempre que o `README.md` for alterado, esta documentação deve ser atualizada para continuar refletindo o estado real do repositório.
 
 ---
 
-## Estrutura de Arquivos
+## 1. Estrutura de arquivos
 
-```
-gcasiv/                              ← repositorio especial (mesmo nome do usuario)
+```text
+gcasiv/
 │
-├── README.md                        ← Perfil principal (PT-BR — padrao)
-├── README_EN.md                     ← Versao em ingles
+├── README.md                        ← Perfil principal (PT-BR — padrão)
+├── README_EN.md                     ← Versão em inglês
 ├── ESTRUTURA.md                     ← Este arquivo
 │
 └── assets/
-    ├── cat.gif                      ← Seu gif do gatinho (feito no Aseprite)
-    └── icons/                       ← Todos os 50 SVGs do projeto
+    └── icons/
         │
-        ├── — BANDEIRAS —
-        ├── BR-Brazil.svg
-        ├── US-United States.svg
+        ├── — IDENTIDADE —
+        ├── name_titulo.svg
+        │
+        ├── — ANIMAÇÃO —
+        ├── gon.gif
         │
         ├── — CONTATO —
         ├── behance.svg
         ├── e-mail.svg
         ├── linkedin.svg
-        ├── logo-instagram.svg
         │
-        ├── — LINGUAGENS —
-        ├── css3.svg
-        ├── html5.svg
-        ├── typescript.svg
+        ├── — TECNOLOGIAS —
         ├── javascript.svg
+        ├── typescript.svg
+        ├── html5.svg
+        ├── css3.svg
         ├── php.svg
         ├── python.svg
         ├── node.js.svg
@@ -38,13 +41,13 @@ gcasiv/                              ← repositorio especial (mesmo nome do usu
         ├── next.js.svg
         ├── angular.svg
         ├── vue.svg
+        ├── sass.svg
         ├── tailwindcss.svg
         ├── mysql.svg
         ├── postgresql.svg
         ├── firebase.svg
         ├── xampp.svg
         ├── bootstrap.svg
-        ├── sass.svg
         ├── ionic.svg
         ├── ruby.svg
         ├── git.svg
@@ -66,133 +69,189 @@ gcasiv/                              ← repositorio especial (mesmo nome do usu
         ├── aseprite.svg
         ├── notion.svg
         ├── trello.svg
+        ├── lua-Logo.svg
         │
-        └── — LOGOTIPOS ESPECIAIS —
-            ├── vscode-logotype.svg
-            ├── notepad++-logotype.svg
-            ├── github-logotype.svg
-            └── vercel-logotype.svg
+        ├── — LOGOTIPOS ESPECIAIS —
+        ├── vscode-logotype.svg
+        ├── notepad++-logotype.svg
+        ├── github-logotype.svg
+        ├── vercel-logotype.svg
+        │
+        ├── — IDIOMAS —
+        ├── BR-Brazil.svg
+        ├── US-United-States.svg
+        │
+        └── — ARTE / INSTAGRAM —
+            ├── logo-instagram.svg
+            └── name_instagram.svg
+```
+---
+
+## 2. Organização do README
+
+Ordem real das seções no `README.md`:
+
+| # | Seção | Finalidade | Elementos principais | Arquivos locais | Serviços externos |
+|---|-------|-----------|----------------------|------------------|--------------------|
+| 1 | Banner | Identificação inicial do perfil | Logo do nome + subtítulo | `name_titulo.svg` | — |
+| 2 | Typing SVG | Frase animada de abertura | Texto digitando | — | Readme Typing SVG |
+| 3 | Sobre mim (info pessoal) | Dados pessoais em destaque | Tabela (Nome, Usuário, Local, Curso, Período, Objetivo), gif, contadores | `gon.gif` | Komarev, Shields.io |
+| 4 | Typing SVG 2 | Segunda frase animada ("Inicializando perfil...") | Texto digitando estilo terminal | — | Readme Typing SVG |
+| 5 | Sobre mim (texto) | Descrição pessoal e interesses | Parágrafos sobre tecnologia, arte e hobbies | — | — |
+| 6 | Contatos | Links de contato rápido | Ícones clicáveis | `behance.svg`, `e-mail.svg`, `linkedin.svg` | Behance, LinkedIn, e-mail |
+| 7 | Tecnologias | Grade de skills técnicas e criativas | Tabela de ícones + logotipos + badges | 40 ícones de tecnologia + 4 logotipos | Shields.io (badges) |
+| 8 | GitHub Stats | Estatísticas de streak de contribuição | Card de streak | — | GitHub Readme Streak Stats |
+| 9 | Atividade | Gráfico de contribuições | Gráfico de atividade | — | GitHub Readme Activity Graph |
+| 10 | Arte & Ilustração | Divulgação do trabalho artístico | Texto + logo + link para Instagram | `logo-instagram.svg`, `name_instagram.svg` | Instagram (@colliriall) |
+| 11 | Footer | Encerramento do perfil | Nome, usuário, frase | — | — |
+| 12 | Seleção de idioma | Alternância PT-BR / EN | Bandeiras clicáveis | `BR-Brazil.svg`, `US-United-States.svg` | — |
+
+---
+
+## 3. Recursos visuais
+
+### Identidade visual
+- `name_titulo.svg`
+
+### Animações
+- `gon.gif`
+
+### Contato
+- `behance.svg`
+- `e-mail.svg`
+- `linkedin.svg`
+
+### Tecnologias
+`javascript.svg`, `typescript.svg`, `html5.svg`, `css3.svg`, `php.svg`, `python.svg`, `node.js.svg`, `react.svg`, `next.js.svg`, `angular.svg`, `vue.svg`, `sass.svg`, `tailwindcss.svg`, `mysql.svg`, `postgresql.svg`, `firebase.svg`, `xampp.svg`, `bootstrap.svg`, `ionic.svg`, `ruby.svg`, `git.svg`, `linux.svg`, `markdown.svg`, `vite.js.svg`, `github-copilot.svg`, `visual-studio-code.svg`, `android.svg`, `godot.svg`, `blender.svg`, `figma.svg`, `penpot.svg`, `affinity.svg`, `behance-black.svg`, `ibis-paint-x.svg`, `clip-studio-paint.svg`, `krita.svg`, `aseprite.svg`, `notion.svg`, `trello.svg`, `lua-Logo.svg`
+
+### Logos especiais
+- `vscode-logotype.svg`
+- `notepad++-logotype.svg`
+- `github-logotype.svg`
+- `vercel-logotype.svg`
+
+### Idiomas
+- `BR-Brazil.svg`
+- `US-United-States.svg`
+
+### Arte / Instagram
+- `logo-instagram.svg`
+- `name_instagram.svg`
+
+---
+
+## 4. Tecnologias
+
+Lista real apresentada no README (grade de 40 ícones + 4 logotipos wordmark):
+
+JavaScript, TypeScript, HTML5, CSS3, PHP, Python, Node.js, React, Next.js, Angular, Vue, Sass, Tailwind, MySQL, PostgreSQL, Firebase, XAMPP, Bootstrap, Ionic, Ruby, Git, Linux, Markdown, Vite, GitHub Copilot, VS Code, Android, Godot, Blender, Figma, Penpot, Affinity, Behance, Ibis Paint X, Clip Studio, Krita, Aseprite, Notion, Trello, Lua.
+
+Logotipos especiais (wordmarks maiores, fora da grade): VS Code, Notepad++, GitHub, Vercel.
+
+---
+
+## 5. Serviços externos
+
+| Serviço | Finalidade |
+|---------|-----------|
+| Readme Typing SVG | Gera as duas animações de texto digitando (banner e seção "Inicializando perfil...") |
+| Komarev (visitor counter) | Contador de visitantes do perfil |
+| Shields.io | Badge de seguidores e badges de nível (Proficiente / Melhorando / Estudando) |
+| GitHub Readme Streak Stats | Gera o card de streak de contribuições |
+| GitHub Readme Activity Graph | Gera o gráfico de atividade de contribuições |
+| GitHub | Link do perfil e contagem de seguidores |
+| Behance | Portfólio de design |
+| LinkedIn | Perfil profissional |
+| Instagram (@colliriall) | Conta de arte/ilustração |
+
+---
+
+## 6. Sistema de idiomas
+
+```text
+README.md      → Português do Brasil (padrão)
+README_EN.md   → Inglês
 ```
 
----
-
-## Como adicionar o gif do gato
-
-1. Crie seu gif no **Aseprite** (pixel art — fica incrivel no GitHub)
-2. Salve como `cat.gif` dentro da pasta `assets/`
-3. No `README.md` e `README_EN.md`, encontre o comentario:
-
-```md
-<!-- <img src="./assets/cat.gif" width="200" alt="cat gif"/> -->
-```
-
-4. Remova o comentario e apague a linha do gif temporario do Giphy acima dele
+- A bandeira `BR-Brazil.svg` aponta para `./README.md`.
+- A bandeira `US-United-States.svg` aponta para `./README_EN.md`.
+- Os links reais confirmados no README são `./README.md` e `./README_EN.md`.
 
 ---
 
-## Como configurar o Pac-Man
+## 7. Contatos e links
 
-O grafico Pac-Man e gerado via **GitHub Actions**. Siga os passos:
-
-### 1. Criar o arquivo da Action
-
-Crie `.github/workflows/pacman.yml` com o conteudo abaixo:
-
-```yaml
-name: Generate Pac-Man Graph
-
-on:
-  schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    steps:
-      - name: Generate pacman graph
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/pacman-contribution-graph.svg
-            dist/pacman-contribution-graph-dark.svg?palette=github-dark
-
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-### 2. Habilitar permissoes
-
-- Va em **Settings → Actions → General**
-- Em **Workflow permissions**, marque: `Read and write permissions`
-- Salve
-
-### 3. Rodar pela primeira vez
-
-- Va em **Actions → Generate Pac-Man Graph → Run workflow**
+| Canal | Link |
+|-------|------|
+| GitHub | https://github.com/gcasiv |
+| Behance | https://www.behance.net/gcasiv |
+| E-mail | gustavoocasanova@gmail.com |
+| LinkedIn | https://www.linkedin.com/in/gcasiv |
+| Instagram (arte) | https://www.instagram.com/colliriall |
 
 ---
 
-## Sistema de idiomas
+## 8. Paleta de cores
 
-| Arquivo        | Idioma  | Comportamento                          |
-|----------------|---------|----------------------------------------|
-| `README.md`    | PT-BR   | Exibido por padrao ao entrar no perfil |
-| `README_EN.md` | English | Acessado clicando na bandeira dos EUA  |
-
-A bandeira do Brasil no topo do `README_EN.md` volta para o PT-BR.
-A bandeira dos EUA no topo do `README.md` vai para o ingles.
-
----
-
-## Links para atualizar
-
-Abra os dois READMEs e substitua:
-
-| Placeholder                         | Substitua por               |
-|-------------------------------------|-----------------------------|
-| `seuemail@gmail.com`                | Seu e-mail real             |
-| `https://www.linkedin.com/in/gcasiv`| Seu link real do LinkedIn   |
-| `https://www.behance.net/gcasiv`    | Seu link real do Behance    |
+| Cor | Hex | Uso |
+|-----|-----|-----|
+| Verde principal | `#00A651` | Typing SVG, badges de nível, ícones do "Sobre mim", contador de visitantes, badge de seguidores, streak stats (borda/ring/label), gráfico de atividade (cor/borda) |
+| Verde claro | `#39D353` | Streak stats (fire), gráfico de atividade (linha) |
+| Verde de área | `#006622` | Preenchimento da área no gráfico de atividade |
+| Fundo escuro | `#0D1117` | Background dos cards de stats, gráfico de atividade e labelColor do badge de seguidores |
+| Texto claro | `#C9D1D9` | Cor das datas no card de streak stats |
+| Card escuro | `#111111` | Fundo do card com os dados pessoais na seção "Sobre mim" |
+| Branco | `#FFFFFF` | Ponto de destaque (point) no gráfico de atividade |
 
 ---
 
-## Paleta de cores
+## 9. GitHub Stats e atividade
 
-```
-#004d1a  — verde escuro 1   (banner, footer)
-#006622  — verde escuro 2   (gradientes)
-#00a651  — verde principal  (badges, titulos, bordas)
-#39d353  — verde claro      (icones, linhas do grafico)
-#1a6b3c  — verde link       (badges secundarias)
-#0d1117  — fundo dark       (cards de stats)
-#c9d1d9  — texto claro      (texto dos cards)
-#f0a500  — amarelo          (badge "Em Aperfeicoamento")
-```
+- **Streak:** gerado por `streak-stats.demolab.com`, usando `theme=merko` com `border`, `ring`, `fire`, `currStreakLabel` e `sideLabels` em `#00A651`, datas em `#C9D1D9` e fundo `#0D1117`. Exibe a sequência atual de contribuições.
+- **Gráfico de atividade:** gerado por `github-readme-activity-graph.vercel.app`, com `bg_color=0d1117`, `color=00a651`, `line=39d353`, `point=ffffff`, `area=true`, `area_color=006622` e `border_color=00a651`. Exibe visualmente as contribuições ao longo do tempo.
 
 ---
 
-## Checklist de publicacao
+## 10. Arte & Ilustração
 
-- [ ] Repositorio `gcasiv` criado como publico
-- [ ] `README.md` na raiz
-- [ ] `README_EN.md` na raiz
-- [ ] `ESTRUTURA.md` na raiz
-- [ ] Pasta `assets/icons/` com os 50 SVGs
-- [ ] Links reais de LinkedIn, e-mail e Behance atualizados
-- [ ] GitHub Action do Pac-Man criada e rodada ao menos uma vez
-- [ ] Permissoes de Actions habilitadas (read + write)
-- [ ] Gif do gato adicionado em `assets/cat.gif` (quando pronto)
+- Texto de apresentação sobre ilustrações, quadrinhos e pixel art.
+- Ícone `logo-instagram.svg` identificando a conta de arte.
+- Wordmark `name_instagram.svg`, linkado para a conta `@colliriall` no Instagram (https://www.instagram.com/colliriall).
+
+---
+
+## 11. Footer
+
+- **Nome:** Gustavo Casanova
+- **Usuário GitHub:** @gcasiv (link para https://github.com/gcasiv)
+- **Frase:** *"Cada dia me superando."*
+
+---
+
+## 12. Checklist de manutenção
+
+- [ ] `README.md` atualizado
+- [ ] `README_EN.md` atualizado
+- [ ] `ESTRUTURA.md` atualizada
+- [ ] Todos os SVGs/GIFs usados existem em `assets/icons/`
+- [ ] Links de contato (Behance, e-mail, LinkedIn) estão corretos
+- [ ] Links de idioma (`README.md` ↔ `README_EN.md`) estão funcionando
+- [ ] `gon.gif` está presente e carregando corretamente
+- [ ] Serviços externos (Typing SVG, Komarev, Shields.io, Streak Stats, Activity Graph) estão carregando
+- [ ] Paleta de cores está consistente entre banner, badges e gráficos
+- [ ] Novas tecnologias adicionadas à grade foram incluídas na documentação
+- [ ] Link do Instagram de arte (@colliriall) está correto
+
+---
+
+## 13. Regras de manutenção
+
+> Sempre que um arquivo, imagem, tecnologia, seção, link ou serviço externo for adicionado ou removido do `README.md`, a `ESTRUTURA.md` também deve ser atualizada.
+
+> Todo arquivo localizado em `assets/icons/` que seja utilizado pelo README deve estar documentado nesta estrutura. Arquivos não referenciados pelo README devem ser removidos da pasta ou justificados aqui.
 
 ---
 
 <div align="center">
-  <sub>Documentacao para <strong>@gcasiv — Gustavo Casanova</strong></sub>
+  <sub>Documentação para <strong>@gcasiv — Gustavo Casanova</strong></sub>
 </div>
